@@ -1,110 +1,117 @@
 <div align="center">
 
-# Kartikay Srivastava
+<p><code>kartikaysrivastava258@github ~ $ ./maintainer.sh</code></p>
 
-### Building systems, backends & intelligent software.
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/system-scan?username=kartikaysrivastava258&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F196062971%3Fv%3D4&style=terminal&v=oss-system-scan-1&mode=light" />
+  <img src="https://www.gitskins.com/api/section/system-scan?username=kartikaysrivastava258&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F196062971%3Fv%3D4&style=terminal&v=oss-system-scan-1&mode=dark" width="860" alt="kartikaysrivastava258 animated maintainer system scan" />
+</picture>
+</p>
+</div>
 
-<p>
-  <a href="https://github.com/KartikaySrivastava258"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" /></a>
-  <a href="https://github.com/KartikaySrivastava258?tab=repositories"><img src="https://img.shields.io/badge/Projects-0d1117?style=flat-square&logo=github&logoColor=white" /></a>
+<h2>Why I build in public</h2>
+
+<table width="100%">
+<tr>
+<td width="33%" valign="top"><h3>Focus</h3><p><code>TypeScript</code> · <code>Go</code> · <code>JavaScript</code></p></td>
+<td width="33%" valign="top"><h3>Proof</h3><p>8 public repositories · 2 stars</p></td>
+<td width="33%" valign="top"><h3>Contribution</h3><p>251 contributions · 40 active days</p></td>
+</tr>
+</table>
+
+<p>Building in public, documenting the work, and making the next contribution easier.</p>
+
+<h2>Open-source toolbox</h2>
+
+<p><code>kartikaysrivastava258@github ~ $ toolbox --list</code></p>
+
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stack?username=kartikaysrivastava258&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F196062971%3Fv%3D4&style=terminal&v=oss-stack-1&mode=light" />
+  <img src="https://www.gitskins.com/api/section/stack?username=kartikaysrivastava258&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F196062971%3Fv%3D4&style=terminal&v=oss-stack-1&mode=dark" width="100%" alt="kartikaysrivastava258 open-source technology toolbox" />
+</picture>
 </p>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=2600&pause=900&center=true&vCenter=true&width=700&lines=Go+%7C+C%2B%2B+%7C+Python;Backend+%7C+Systems+%7C+AI;Build.+Break.+Understand.+Ship." alt="typing" />
+<table width="100%">
+<tr>
+<td width="17%" align="center"><strong>TypeScript</strong><br /><sub>83%</sub></td>
+<td width="17%" align="center"><strong>Go</strong><br /><sub>6%</sub></td>
+<td width="17%" align="center"><strong>JavaScript</strong><br /><sub>6%</sub></td>
+<td width="17%" align="center"><strong>CSS</strong><br /><sub>2%</sub></td>
+<td width="17%" align="center"><strong>C++</strong><br /><sub>1%</sub></td>
+<td width="17%" align="center"><strong>PLpgSQL</strong><br /><sub>1%</sub></td>
+</tr>
+</table>
 
-</div>
+<h2>Repositories worth exploring</h2>
 
----
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/projects?username=kartikaysrivastava258&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F196062971%3Fv%3D4&repos=kartikaysrivastava258%2Fcollab-editor%2Ckartikaysrivastava258%2FMini-Orchestrator%2Ckartikaysrivastava258%2Fsehat-companion%2Ckartikaysrivastava258%2FPBL-III-Python-Backend%2Ckartikaysrivastava258%2FLEETCODE-AND-GEEKS-DSA-QUESTIONS&v=oss-projects-1&mode=light" />
+  <img src="https://www.gitskins.com/api/section/projects?username=kartikaysrivastava258&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F196062971%3Fv%3D4&repos=kartikaysrivastava258%2Fcollab-editor%2Ckartikaysrivastava258%2FMini-Orchestrator%2Ckartikaysrivastava258%2Fsehat-companion%2Ckartikaysrivastava258%2FPBL-III-Python-Backend%2Ckartikaysrivastava258%2FLEETCODE-AND-GEEKS-DSA-QUESTIONS&v=oss-projects-1&mode=dark" width="860" alt="kartikaysrivastava258 maintainer repositories" />
+</picture>
+</p>
 
-## `> whoami`
+<table width="100%">
+<tr>
+<td width="25%" valign="top"><h3><a href="https://github.com/KartikaySrivastava258/Mini-Orchestrator">Mini-Orchestrator</a></h3><p>A public project looking for its next contributor.</p><p><sub>TypeScript · ⭐ 1</sub></p></td>
+<td width="25%" valign="top"><h3><a href="https://github.com/KartikaySrivastava258/sehat-companion">sehat-companion</a></h3><p>A public project looking for its next contributor.</p><p><sub>TypeScript · ⭐ 0</sub></p></td>
+<td width="25%" valign="top"><h3><a href="https://github.com/OpinionatedDeer/PBL-III-Python-Backend">PBL-III-Python-Backend</a></h3><p>Sem III PBL backend</p><p><sub>Python · ⭐ 0</sub></p></td>
+<td width="25%" valign="top"><h3><a href="https://github.com/KartikaySrivastava258/LEETCODE-AND-GEEKS-DSA-QUESTIONS">LEETCODE-AND-GEEKS-DSA-QUESTIONS</a></h3><p>A collection of LeetCode questions to ace the coding interview! - Created using [LeetHub v2](https://github.com/arunbhardwaj/LeetHub-2.0)</p><p><sub>C++ · ⭐ 0</sub></p></td>
+</tr>
+</table>
 
-I'm a developer who enjoys building things from the backend up — from services and orchestration to AI systems and developer tooling.
+<h2>Contribution activity</h2>
 
-I care about **how things work under the hood**, not just making them work.
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stats?username=kartikaysrivastava258&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F196062971%3Fv%3D4&style=terminal&v=oss-stats-1&mode=light" />
+  <img src="https://www.gitskins.com/api/section/stats?username=kartikaysrivastava258&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F196062971%3Fv%3D4&style=terminal&v=oss-stats-1&mode=dark" width="100%" alt="kartikaysrivastava258 open-source signal" />
+</picture>
+</p>
 
-```text
-focus:     systems · backend · AI
-languages: Go · C++ · Python
-approach:  learn → build → break → improve
-```
+<h2>Contribution trail</h2>
 
-## `> stack`
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/heatmap?username=kartikaysrivastava258&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F196062971%3Fv%3D4&v=oss-heatmap-1&mode=light" />
+  <img src="https://www.gitskins.com/api/section/heatmap?username=kartikaysrivastava258&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F196062971%3Fv%3D4&v=oss-heatmap-1&mode=dark" width="100%" alt="kartikaysrivastava258 contribution trail" />
+</picture>
+</p>
 
-<div align="center">
+<hr />
+<h2>Level & Achievements</h2>
 
-### Go &nbsp;&nbsp; C++ &nbsp;&nbsp; Python
+<p><code>kartikaysrivastava258@github ~ $ ./achievements --unlock</code></p>
 
-<img src="https://skillicons.dev/icons?i=go,cpp,python,linux,docker,postgres,redis,git" alt="technology stack" />
+<p align="center">
+<picture>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2200&pause=600&color=00E5FF&center=true&vCenter=true&width=650&lines=Loading+achievements...;Calculating+rank...;XP+gained+from+every+commit;Streak+tracked+in+real-time" alt="typing" />
+</picture>
+</p>
 
-<sub>TypeScript · JavaScript · SQL · CSS — used where the project calls for them.</sub>
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=kartikaysrivastava258&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0e14&title_color=00E5FF&icon_color=00E5FF&text_color=c9d1d9&rank_icon=github" height="165" alt="stats and rank" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=kartikaysrivastava258&theme=tokyonight&hide_border=true&background=0a0e14&ring=00E5FF&fire=FF2E88&currStreakLabel=00E5FF" height="165" alt="streak" />
+</p>
 
-</div>
+<p align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=kartikaysrivastava258&theme=algolia&no-frame=true&no-bg=true&margin-w=8&row=1" alt="trophies" />
+</p>
 
-## `> selected_projects`
+<h2>Contribution snake</h2>
 
-<div align="center">
+<p align="center">
+<img src="https://raw.githubusercontent.com/KartikaySrivastava258/KartikaySrivastava258/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
+</p>
+<h2>Contribute together</h2>
 
-<a href="https://github.com/KartikaySrivastava258/Mini-Orchestrator">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=KartikaySrivastava258&repo=Mini-Orchestrator&theme=transparent&hide_border=true" />
-</a>
-<a href="https://github.com/KartikaySrivastava258/RAGveda">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=KartikaySrivastava258&repo=RAGveda&theme=transparent&hide_border=true" />
-</a>
+<p>If the work is useful, open an issue, improve the docs, share a project, or start a conversation.</p>
 
-<br>
-
-<a href="https://github.com/KartikaySrivastava258/collab-editor">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=KartikaySrivastava258&repo=collab-editor&theme=transparent&hide_border=true" />
-</a>
-<a href="https://github.com/KartikaySrivastava258/PBL-III-Python-Backend">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=KartikaySrivastava258&repo=PBL-III-Python-Backend&theme=transparent&hide_border=true" />
-</a>
-
-</div>
-
-## `> github`
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=KartikaySrivastava258&show_icons=true&hide_border=true&theme=transparent&include_all_commits=true" height="165" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=KartikaySrivastava258&theme=transparent&hide_border=true" height="165" />
-
-<br><br>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=KartikaySrivastava258&theme=github-compact&hide_border=true" width="94%" />
-
-</div>
-
-## `> contribution.exe`
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/KartikaySrivastava258/KartikaySrivastava258/output/github-contribution-grid-snake-dark.svg" width="88%" alt="GitHub contribution snake" />
-
-<br>
-<sub>commit → contribute → repeat</sub>
-
-</div>
-
-## `> currently_building`
-
-```text
-01  distributed systems
-02  backend architecture
-03  RAG & knowledge systems
-04  performance-oriented C++
-05  developer tooling
-```
-
----
-
-<div align="center">
-
-### `build things worth understanding.`
-
-<a href="https://github.com/KartikaySrivastava258?tab=repositories">Explore my repositories →</a>
-
-<br><br>
-
-<img src="https://komarev.com/ghpvc/?username=KartikaySrivastava258&style=flat-square" alt="profile views" />
-
-</div>
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/social?username=kartikaysrivastava258&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F196062971%3Fv%3D4&v=oss-social-1&mode=light" />
+  <img src="https://www.gitskins.com/api/section/social?username=kartikaysrivastava258&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F196062971%3Fv%3D4&mode=dark" width="100%" alt="kartikaysrivastava258 community links" />
+</picture></p>
+<p align="center"><a href="https://github.com/kartikaysrivastava258">GitHub</a></p>
+<p align="center"><sub>kartikaysrivastava258 · open-source profile generated with <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub></p>
