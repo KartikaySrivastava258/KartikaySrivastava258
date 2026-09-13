@@ -111,7 +111,7 @@
 
 <p align="center"><picture>
   <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/social?username=kartikaysrivastava258&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F196062971%3Fv%3D4&v=oss-social-1&mode=light" />
-  <img src="https://www.gitskins.com/api/section/social?username=kartikaysrivastava258&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F196062971%3Fv%3D4&mode=dark" width="100%" alt="kartikaysrivastava258 community links" />
+  <img src="https://www.gitskins.com/api/section/social?username=kartikaysrivastava258&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F196062971%3Fv%3D4&v=oss-social-1&mode=dark" width="100%" alt="kartikaysrivastava258 community links" />
 </picture></p>
 <p align="center"><a href="https://github.com/kartikaysrivastava258">GitHub</a></p>
 <p align="center"><sub>kartikaysrivastava258 · open-source profile generated with <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub></p>
