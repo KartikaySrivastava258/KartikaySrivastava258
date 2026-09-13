@@ -14,15 +14,15 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
     steps:
-      - name: generate github-contribution-grid-snake.svg
+      - name: generate neon contribution snake
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=00e5ff&color_dots=%230b1220,%23132638,%2300a9c7,%2300e5ff
+            dist/github-contribution-grid-snake-dark.svg?color_snake=ff2e88&color_dots=%23150d17,%23301928,%23a51d59,%23ff2e88
 
-      - name: push snake svg to the output branch
+      - name: publish snake animation
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
