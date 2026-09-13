@@ -81,7 +81,30 @@
 </p>
 
 <hr />
+<h2>Level & Achievements</h2>
 
+<p><code>kartikaysrivastava258@github ~ $ ./achievements --unlock</code></p>
+
+<p align="center">
+<picture>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2200&pause=600&color=00E5FF&center=true&vCenter=true&width=650&lines=Loading+achievements...;Calculating+rank...;XP+gained+from+every+commit;Streak+tracked+in+real-time" alt="typing" />
+</picture>
+</p>
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=kartikaysrivastava258&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0e14&title_color=00E5FF&icon_color=00E5FF&text_color=c9d1d9&rank_icon=github" height="165" alt="stats and rank" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=kartikaysrivastava258&theme=tokyonight&hide_border=true&background=0a0e14&ring=00E5FF&fire=FF2E88&currStreakLabel=00E5FF" height="165" alt="streak" />
+</p>
+
+<p align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=kartikaysrivastava258&theme=algolia&no-frame=true&no-bg=true&margin-w=8&row=1" alt="trophies" />
+</p>
+
+<h2>Contribution snake</h2>
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/KartikaySrivastava258/KartikaySrivastava258/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
+</p>
 <h2>Contribute together</h2>
 
 <p>If the work is useful, open an issue, improve the docs, share a project, or start a conversation.</p>
