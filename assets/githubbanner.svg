@@ -1,0 +1,25 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070b12"/><stop offset="0.55" stop-color="#0b1220"/><stop offset="1" stop-color="#120b18"/></linearGradient>
+  <linearGradient id="line" x1="0" x2="1"><stop stop-color="#00e5ff" stop-opacity="0"/><stop offset=".5" stop-color="#00e5ff"/><stop offset="1" stop-color="#ff2e88" stop-opacity="0"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#8aa0b8" stroke-opacity=".07"/></pattern>
+</defs>
+<rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+<rect width="1200" height="300" rx="18" fill="url(#grid)"/>
+<circle cx="1040" cy="65" r="120" fill="#00e5ff" opacity=".05"/>
+<circle cx="180" cy="250" r="150" fill="#ff2e88" opacity=".035"/>
+<path d="M55 245H1145" stroke="url(#line)" stroke-width="2"/>
+<g font-family="monospace">
+  <text x="70" y="62" fill="#718096" font-size="15">KARTIKAYSRIVASTAVA258 / PROFILE</text>
+  <text x="70" y="132" fill="#e6edf3" font-size="48" font-weight="700">BUILD. SHIP. LEARN.</text>
+  <text x="73" y="170" fill="#00e5ff" font-size="18">systems • backend • AI • open source</text>
+  <text x="73" y="213" fill="#9fb0c3" font-size="15">$ ./run.sh --mode=build</text>
+  <text x="73" y="236" fill="#6ee7b7" font-size="14">status: online  |  stack: Go · C++ · Python</text>
+</g>
+<g filter="url(#glow)" opacity=".9">
+ <circle cx="1080" cy="210" r="5" fill="#00e5ff"/>
+ <circle cx="1110" cy="210" r="5" fill="#ff2e88"/>
+</g>
+<rect x="1" y="1" width="1198" height="298" rx="18" fill="none" stroke="#263244"/>
+</svg>
