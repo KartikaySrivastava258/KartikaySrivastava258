@@ -35,12 +35,10 @@ mindset     = build → measure → improve
 </p>
 
 <p align="center">
-  <sub>Primary languages</sub>
-  <br />
+  <sub>Primary languages</sub><br />
   <strong>Go</strong> · <strong>C++</strong> · <strong>Python</strong>
   <br /><br />
-  <sub>Also used when the problem calls for it</sub>
-  <br />
+  <sub>Also used when the problem calls for it</sub><br />
   <code>TypeScript</code> · <code>JavaScript</code> · <code>SQL</code> · <code>CSS</code>
 </p>
 
@@ -48,18 +46,9 @@ mindset     = build → measure → improve
 
 <table width="100%">
 <tr>
-<td width="33%" valign="top">
-<h3>⚡ Systems</h3>
-<p>Orchestrators, concurrency, services, APIs, performance-focused tooling.</p>
-</td>
-<td width="33%" valign="top">
-<h3>🤖 AI</h3>
-<p>RAG pipelines, retrieval systems, vector search, knowledge graphs, AI-powered applications.</p>
-</td>
-<td width="33%" valign="top">
-<h3>🛠️ Developer Tools</h3>
-<p>Collaboration software, automation, experiments, and tools that remove friction.</p>
-</td>
+<td width="33%" valign="top"><h3>⚡ Systems</h3><p>Orchestrators, concurrency, services, APIs, and performance-focused tooling.</p></td>
+<td width="33%" valign="top"><h3>🤖 AI</h3><p>RAG pipelines, retrieval systems, vector search, knowledge graphs, and AI applications.</p></td>
+<td width="33%" valign="top"><h3>🛠️ Developer Tools</h3><p>Collaboration software, automation, experiments, and tools that remove friction.</p></td>
 </tr>
 </table>
 
@@ -67,34 +56,16 @@ mindset     = build → measure → improve
 
 <table width="100%">
 <tr>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/KartikaySrivastava258/Mini-Orchestrator">Mini-Orchestrator</a></h3>
-<p>Exploring orchestration and backend systems with a focus on how components coordinate and execute work.</p>
-<sub>Go / backend engineering</sub>
-</td>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/KartikaySrivastava258/RAGveda">RAGveda</a></h3>
-<p>AI retrieval architecture combining retrieval, embeddings, vector search, and knowledge-graph ideas.</p>
-<sub>AI / RAG / knowledge systems</sub>
-</td>
+<td width="50%" valign="top"><h3><a href="https://github.com/KartikaySrivastava258/Mini-Orchestrator">Mini-Orchestrator</a></h3><p>Exploring orchestration and backend systems with a focus on how components coordinate and execute work.</p><sub>Go / backend engineering</sub></td>
+<td width="50%" valign="top"><h3><a href="https://github.com/KartikaySrivastava258/RAGveda">RAGveda</a></h3><p>AI retrieval architecture combining retrieval, embeddings, vector search, and knowledge-graph ideas.</p><sub>AI / RAG / knowledge systems</sub></td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/KartikaySrivastava258/collab-editor">Collab Editor</a></h3>
-<p>A collaborative editing project focused on real-time application behavior and multi-user interaction.</p>
-<sub>real-time systems / web</sub>
-</td>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/KartikaySrivastava258/PBL-III-Python-Backend">Python Backend</a></h3>
-<p>Backend engineering work with Python, APIs, application logic, and service-side development.</p>
-<sub>Python / backend</sub>
-</td>
+<td width="50%" valign="top"><h3><a href="https://github.com/KartikaySrivastava258/collab-editor">Collab Editor</a></h3><p>A collaborative editing project focused on real-time application behavior and multi-user interaction.</p><sub>real-time systems / web</sub></td>
+<td width="50%" valign="top"><h3><a href="https://github.com/KartikaySrivastava258/PBL-III-Python-Backend">Python Backend</a></h3><p>Backend engineering work with Python, APIs, application logic, and service-side development.</p><sub>Python / backend</sub></td>
 </tr>
 </table>
 
-<p align="center">
-  <a href="https://github.com/KartikaySrivastava258?tab=repositories"><code>→ explore all repositories</code></a>
-</p>
+<p align="center"><a href="https://github.com/KartikaySrivastava258?tab=repositories"><code>→ explore all repositories</code></a></p>
 
 ## 📊 Engineering Signal
 
@@ -103,19 +74,23 @@ mindset     = build → measure → improve
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=KartikaySrivastava258&theme=transparent&hide_border=true&background=0d1117&ring=8B5CF6&fire=F59E0B&currStreakLabel=8B5CF6" height="170" alt="GitHub streak" />
 </p>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=KartikaySrivastava258&theme=onestar&no-frame=true&no-bg=true&margin-w=8&row=1" alt="GitHub trophies" />
-</p>
+<p align="center"><img src="https://github-profile-trophy.vercel.app/?username=KartikaySrivastava258&theme=onestar&no-frame=true&no-bg=true&margin-w=8&row=1" alt="GitHub trophies" /></p>
 
-## 🐍 Contribution Grid // NIGHT MODE
+## 🐍 CYBER SNAKE // ARCADE MODE
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/KartikaySrivastava258/KartikaySrivastava258/output/github-contribution-grid-snake-dark.svg" alt="animated contribution snake" />
+  <img src="https://raw.githubusercontent.com/KartikaySrivastava258/KartikaySrivastava258/main/assets/cyber-snake.svg" alt="Cyber Snake animated arcade" width="900" />
 </p>
 
+<p align="center"><code>[ LIVE ] collect • commit • ship</code></p>
+
+## 🟩 Contribution Matrix
+
 <p align="center">
-  <sub>Every square is a checkpoint. The snake keeps moving.</sub>
+  <img src="https://raw.githubusercontent.com/KartikaySrivastava258/KartikaySrivastava258/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake" />
 </p>
+
+<p align="center"><sub>The arcade is custom. The contribution trail is real.</sub></p>
 
 ## 🛰️ Activity Feed
 
@@ -135,15 +110,10 @@ mindset     = build → measure → improve
 ## ◈ Find me
 
 <p align="center">
-  <a href="https://github.com/KartikaySrivastava258">GitHub</a>
-  &nbsp;•&nbsp;
+  <a href="https://github.com/KartikaySrivastava258">GitHub</a> &nbsp;•&nbsp;
   <a href="https://github.com/KartikaySrivastava258?tab=repositories">Projects</a>
 </p>
 
-<p align="center">
-  <code>build something weird → make it useful → ship it</code>
-</p>
+<p align="center"><code>build something weird → make it useful → ship it</code></p>
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=KartikaySrivastava258&style=flat-square&color=8B5CF6" alt="profile views" />
-</div>
+<div align="center"><img src="https://komarev.com/ghpvc/?username=KartikaySrivastava258&style=flat-square&color=8B5CF6" alt="profile views" /></div>
