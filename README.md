@@ -1,65 +1,97 @@
+<img src="githubbanner.jpg"/>
+
 <div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=800&color=00F5D4&center=true&vCenter=true&width=600&lines=%24+whoami;Aditya+Nandan+%E2%80%94+Full-Stack+%2F+AI+Dev;%24+cat+status.txt;Shipping+things+with+open-source+tools;%24+./run.sh+--mode%3Dbuild" alt="typing-svg" />
+</div>
 
-<img src="./assets/githubbanner.svg" width="100%" alt="Kartikay Srivastava developer banner"/>
-
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2400&pause=700&color=00E5FF&center=true&vCenter=true&width=720&lines=%24+whoami;Kartikay+Srivastava+%E2%80%94+Backend+%2F+Systems+%2F+AI;%24+cat+status.txt;Building%2C+learning%2C+shipping;%24+./run.sh+--mode%3Dbuild;Go+%C2%B7+C%2B%2B+%C2%B7+Python+%C2%B7+Open+Source" alt="terminal typing animation"/>
-
+<div align="center">
+  <img src="/imgs/terminal_panel.svg" width="700"/>
 </div>
 
 <br/>
 
 <p align="center">
-  <img src="./assets/terminal-panel.svg" width="94%" alt="developer terminal panel"/>
+  <a href="https://linkedin.com/in/aditya-nandan-thats-it" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=00F5D4" />
+  </a>
+  <a href="https://github.com/adityanandanx" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=00F5D4" />
+  </a>
+  <a href="https://x.com/adithatsit" target="_blank">
+    <img src="https://img.shields.io/badge/X/Twitter-0D1117?style=for-the-badge&logo=x&logoColor=00F5D4" />
+  </a>
+  <a href="https://adityanandan.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=00F5D4" />
+  </a>
+  <a href="https://instagram.com/adityanandan.zip" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-0D1117?style=for-the-badge&logo=instagram&logoColor=00F5D4" />
+  </a>
 </p>
 
-<h2>⚡ About me</h2>
+<br>
 
-<table width="100%">
-<tr>
-<td width="33%" valign="top"><h3>01 / Core</h3><code>Go</code> · <code>C++</code> · <code>Python</code></td>
-<td width="33%" valign="top"><h3>02 / Building</h3>Backend systems, developer tools, AI projects & open source.</td>
-<td width="33%" valign="top"><h3>03 / Mindset</h3>Build it. Break it. Understand it. Ship it better.</td>
-</tr>
-</table>
+<h2 align="center"><img src="/imgs/title1.png" width="25"/> <em>About me</em></h2>
 
-<p align="center"><img src="https://skillicons.dev/icons?i=go,cpp,python,linux,docker,git,github,typescript&theme=dark" alt="technology stack"/></p>
-<p align="center"><sub>TypeScript is part of the toolbox — Go, C++ and Python are the core stack.</sub></p>
+<img src="/imgs/pixel_avatar.svg" width="260" align="right" style="margin-left: 20px;" />
 
-<h2>🧠 What I work with</h2>
-<p><code>backend</code> <code>systems</code> <code>APIs</code> <code>AI / RAG</code> <code>databases</code> <code>DSA</code> <code>open-source</code></p>
+<p>
+  Hello there! <b>I'm Aditya Nandan</b> — a final year Computer Science student at Graphic Era Dehradun. Self-taught full-stack and AI developer who loves building with local/open-source tooling. Frontend Intern at Quivr (YC W24), national and international competition winner in web technologies, currently building AI/ML portfolio projects.
+</p>
 
-<h2>🚀 Selected builds</h2>
-<table width="100%">
-<tr>
-<td width="50%" valign="top"><h3><a href="https://github.com/KartikaySrivastava258/Mini-Orchestrator">Mini-Orchestrator</a></h3><p>Developer tooling project focused on orchestration and automation.</p><sub>TypeScript · ⭐ 1</sub></td>
-<td width="50%" valign="top"><h3><a href="https://github.com/KartikaySrivastava258/sehat-companion">sehat-companion</a></h3><p>A public project built around a health-focused companion experience.</p><sub>TypeScript · ⭐ 0</sub></td>
-</tr>
-<tr>
-<td width="50%" valign="top"><h3><a href="https://github.com/OpinionatedDeer/PBL-III-Python-Backend">PBL-III-Python-Backend</a></h3><p>Sem III PBL backend implementation.</p><sub>Python · ⭐ 0</sub></td>
-<td width="50%" valign="top"><h3><a href="https://github.com/KartikaySrivastava258/LEETCODE-AND-GEEKS-DSA-QUESTIONS">DSA Quest</a></h3><p>LeetCode and GeeksForGeeks solutions for sharpening problem-solving skills.</p><sub>C++ · ⭐ 0</sub></td>
-</tr>
-</table>
+<p align="left">
+   <img src="/imgs/img3.png" width="15"/> <b>B.Tech CSE @ Graphic Era Dehradun</b> (CGPA 8.54) <br/>
+   <img src="/imgs/img4.png" width="15"/> <b>Frontend Intern @ Quivr (YC W24)</b><br/>
+   <img src="/imgs/img2.png" width="15"/> <b>WorldSkills Asia 2025</b> — Medallion of Excellence (5th)<br/>
+   <img src="/imgs/img2.png" width="15"/> <b>IndiaSkills 2024</b> — Bronze Medallist (5th)<br/>
+</p>
 
-<h2>📊 GitHub telemetry</h2>
+<br/>
+
+<h2 align="center"><img src="/imgs/title2.png" width="25"/> <em>Tech Stack</em></h2>
+
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=kartikaysrivastava258&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0e14&title_color=00E5FF&icon_color=00E5FF&text_color=c9d1d9&rank_icon=github" height="170" alt="GitHub statistics"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=kartikaysrivastava258&theme=tokyonight&hide_border=true&background=0a0e14&ring=00E5FF&fire=FF2E88&currStreakLabel=00E5FF" height="170" alt="GitHub streak"/>
+  <img src="https://skillicons.dev/icons?i=python,ts,js,c,cpp,php,react,nextjs,vue,fastapi,flask,django,nodejs,postgres,mongodb,tailwind,docker,git,aws,tensorflow,godot&theme=dark" />
 </p>
-<p align="center"><img src="https://github-profile-trophy.vercel.app/?username=kartikaysrivastava258&theme=algolia&no-frame=true&no-bg=true&margin-w=8&row=1" alt="GitHub trophies"/></p>
 
-<h2>🐍 Contribution protocol</h2>
-<p align="center"><img src="https://raw.githubusercontent.com/KartikaySrivastava258/KartikaySrivastava258/output/github-contribution-grid-snake-dark.svg" alt="GitHub contribution snake" width="92%"/></p>
-<p align="center"><sub>Commits go in. Contributions come alive. The snake keeps moving.</sub></p>
+<br/>
 
-<h2>📡 Current signal</h2>
-<table width="100%"><tr>
-<td align="center"><strong>8</strong><br/><sub>Public repos</sub></td>
-<td align="center"><strong>251</strong><br/><sub>Contributions</sub></td>
-<td align="center"><strong>40</strong><br/><sub>Active days</sub></td>
-<td align="center"><strong>2</strong><br/><sub>Stars</sub></td>
-</tr></table>
+<h2 align="center"><img src="/imgs/title3.png" width="25"/> <em>Stats &amp; Rank</em></h2>
 
-<p align="center"><a href="https://github.com/KartikaySrivastava258">GitHub</a> · <a href="https://github.com/KartikaySrivastava258/KartikaySrivastava258">Profile source</a></p>
-<p align="center"><sub><code>kartikay@github:~$</code> keep building.</sub></p>
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=adityanandanx&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F5D4&icon_color=00F5D4&text_color=c9d1d9&rank_icon=github" height="165"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=adityanandanx&theme=tokyonight&hide_border=true&background=0D1117&ring=00F5D4&fire=FF2E88&currStreakLabel=00F5D4" height="165"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adityanandanx&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F5D4&text_color=c9d1d9" height="165"/>
+</div>
+
+<br/>
+
+<h2 align="center">🏆 <em>Achievements</em></h2>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=adityanandanx&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&row=1" />
+</div>
+
+<br/>
+
+<h2 align="center">🐍 <em>Contribution Snake</em></h2>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/adityanandanx/adityanandanx/output/github-contribution-grid-snake-dark.svg" />
+</div>
+
+<br/>
+
+<h2 align="center">📈 <em>Activity Graph</em></h2>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=adityanandanx&bg_color=0D1117&color=00F5D4&line=FF2E88&point=ffffff&area=true&hide_border=true" width="100%"/>
+</div>
+
+<br/>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=adityanandanx&style=for-the-badge&color=00F5D4&label=PROFILE+VIEWS" />
+</p>
