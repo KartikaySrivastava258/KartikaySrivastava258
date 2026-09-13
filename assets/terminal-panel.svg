@@ -1,0 +1,12 @@
+<svg width="1100" height="270" viewBox="0 0 1100 270" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a0f18"/><stop offset="1" stop-color="#111827"/></linearGradient><filter id="gl"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect x="1" y="1" width="1098" height="268" rx="14" fill="url(#g)" stroke="#263244"/>
+<circle cx="24" cy="22" r="5" fill="#ff5f56"/><circle cx="42" cy="22" r="5" fill="#ffbd2e"/><circle cx="60" cy="22" r="5" fill="#27c93f"/>
+<text x="85" y="27" fill="#718096" font-family="monospace" font-size="13">kartikay@github:~</text>
+<g font-family="monospace" font-size="15">
+<text x="30" y="70" fill="#00e5ff">$ whoami</text><text x="30" y="94" fill="#d8dee9">Kartikay Srivastava — Systems / AI / Backend</text>
+<text x="30" y="132" fill="#00e5ff">$ cat status.txt</text><text x="30" y="156" fill="#d8dee9">Building things that work under the hood.</text>
+<text x="30" y="194" fill="#00e5ff">$ ./run.sh --mode=build</text><text x="30" y="218" fill="#6ee7b7">[ OK ] Go   [ OK ] C++   [ OK ] Python   [ READY ] shipping</text>
+</g>
+<path d="M1030 52v165" stroke="#00e5ff" stroke-opacity=".12"/><circle cx="1030" cy="52" r="3" fill="#00e5ff" filter="url(#gl)"/>
+</svg>
