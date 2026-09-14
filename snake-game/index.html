@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>kartikaysrivastava258 :: snake.exe</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background: radial-gradient(circle at 50% 20%, #0b0f18 0%, #05060a 70%);
+    color: #e6edf3;
+    font-family: 'Consolas', 'Fira Code', monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+  h1 {
+    color: #00E5FF;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin: 0 0 4px;
+    text-shadow: 0 0 12px #00E5FF88;
+  }
+  .sub { color: #5b6472; font-size: 13px; margin: 0 0 18px; }
+  .frame {
+    position: relative;
+    border: 1px solid #1f2733;
+    border-radius: 14px;
+    background: #0a0e14;
+    padding: 18px;
+    box-shadow: 0 0 40px #00e5ff11;
+  }
+  .hud {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    max-width: 90vw;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .hud span { color: #7d8798; }
+  .hud b { color: #00E5FF; transition: color .15s; }
+  .wrap { position: relative; width: 400px; max-width: 90vw; }
+  canvas {
+    display: block;
+    background: #05060a;
+    border: 1px solid #1f2733;
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+  }
+  .scanlines {
+    position: absolute; inset: 0; pointer-events: none; border-radius: 8px;
+    background: repeating-linear-gradient(0deg, rgba(255,255,255,0.035) 0px, rgba(255,255,255,0.035) 1px, transparent 1px, transparent 3px);
+    mix-blend-mode: overlay;
+  }
+  .levelup {
+    position: absolute; top: 40%; left: 50%; transform: translate(-50%,-50%) scale(0.6);
+    color: #FF2E88; font-size: 22px; letter-spacing: 3px; font-weight: bold;
+    text-shadow: 0 0 16px #FF2E88;
+    opacity: 0; pointer-events: none; transition: opacity .15s, transform .15s;
+  }
+  .levelup.show { opacity: 1; transform: translate(-50%,-50%) scale(1); }
+  .msg { text-align: center; margin-top: 12px; min-height: 20px; color: #FF2E88; font-size: 14px; }
+  button {
+    margin-top: 12px; background: #0d1117; color: #00E5FF; border: 1px solid #00E5FF;
+    padding: 8px 18px; border-radius: 6px; font-family: inherit; font-size: 13px; cursor: pointer;
+  }
+  button:hover { background: #00E5FF22; }
+  .mute { position: absolute; top: 12px; right: 14px; border: none; background: none; color: #5b6472; font-size: 16px; cursor: pointer; margin: 0; padding: 4px; }
+  .controls { display: none; grid-template-columns: repeat(3, 46px); grid-template-rows: repeat(2, 46px); gap: 6px; margin-top: 16px; justify-content: center; }
+  .controls button.dir { width: 46px; height: 46px; padding: 0; font-size: 18px; margin: 0; }
+  @media (max-width: 480px) { .controls { display: grid; } }
+  a { color: #00E5FF; }
+</style>
+</head>
+<body>
+  <h1>&gt; ./snake.exe --player=kartikaysrivastava258</h1>
+  <p class="sub">arrow keys / WASD — eat, level up, don't hit yourself</p>
+
+  <div class="frame">
+    <button class="mute" id="mute">sound: on</button>
+    <div class="hud">
+      <span>score: <b id="score">0</b></span>
+      <span>level: <b id="level">1</b></span>
+      <span>best: <b id="best">0</b></span>
+    </div>
+    <div class="wrap">
+      <canvas id="game" width="400" height="400"></canvas>
+      <div class="scanlines"></div>
+      <div class="levelup" id="levelup">LEVEL UP</div>
+    </div>
+    <p class="msg" id="msg">press any arrow key to start</p>
+    <div style="text-align:center;"><button id="restart" style="display:none;">restart</button></div>
+    <div class="controls">
+      <div></div><button class="dir" data-dir="up">&uarr;</button><div></div>
+      <button class="dir" data-dir="left">&larr;</button>
+      <button class="dir" data-dir="down">&darr;</button>
+      <button class="dir" data-dir="right">&rarr;</button>
+    </div>
+  </div>
+
+  <p style="margin-top:18px;"><a href="https://github.com/KartikaySrivastava258">&larr; back to github.com/KartikaySrivastava258</a></p>
+
+<script>
+const canvas = document.getElementById('game');
+const ctx = canvas.getContext('2d');
+const cell = 20;
+const cols = canvas.width / cell;
+const rows = canvas.height / cell;
+
+const scoreEl = document.getElementById('score');
+const levelEl = document.getElementById('level');
+const bestEl = document.getElementById('best');
+const msgEl = document.getElementById('msg');
+const restartBtn = document.getElementById('restart');
+const levelupEl = document.getElementById('levelup');
+const muteBtn = document.getElementById('mute');
+
+let snake, dir, nextDir, food, score, best, level, running, stepMs, lastStep, rafId, particles, foodPulse, muted = false;
+
+let audioCtx;
+function beep(freq, dur, type) {
+  if (muted) return;
+  try {
+    audioCtx = audioCtx || new (window.AudioContext || window.webkitAudioContext)();
+    const o = audioCtx.createOscillator();
+    const g = audioCtx.createGain();
+    o.type = type || 'square';
+    o.frequency.value = freq;
+    g.gain.value = 0.05;
+    o.connect(g); g.connect(audioCtx.destination);
+    o.start();
+    g.gain.exponentialRampToValueAtTime(0.0001, audioCtx.currentTime + dur);
+    o.stop(audioCtx.currentTime + dur);
+  } catch (e) {}
+}
+
+muteBtn.addEventListener('click', () => {
+  muted = !muted;
+  muteBtn.textContent = 'sound: ' + (muted ? 'off' : 'on');
+});
+
+function loadBest() { try { return parseInt(localStorage.getItem('snake_best') || '0', 10); } catch (e) { return 0; } }
+function saveBest(v) { try { localStorage.setItem('snake_best', String(v)); } catch (e) {} }
+
+function reset() {
+  snake = [{x: 8, y: 10}, {x: 7, y: 10}, {x: 6, y: 10}];
+  dir = {x: 1, y: 0};
+  nextDir = {x: 1, y: 0};
+  score = 0;
+  level = 1;
+  stepMs = 150;
+  particles = [];
+  foodPulse = 0;
+  best = loadBest();
+  scoreEl.textContent = score;
+  levelEl.textContent = level;
+  bestEl.textContent = best;
+  placeFood();
+  running = false;
+  lastStep = 0;
+  restartBtn.style.display = 'none';
+  msgEl.textContent = 'press any arrow key to start';
+  cancelAnimationFrame(rafId);
+  render(0);
+}
+
+function placeFood() {
+  let ok = false;
+  while (!ok) {
+    food = { x: Math.floor(Math.random() * cols), y: Math.floor(Math.random() * rows) };
+    ok = !snake.some(s => s.x === food.x && s.y === food.y);
+  }
+}
+
+function spawnParticles(cx, cy, color) {
+  for (let i = 0; i < 14; i++) {
+    const a = (Math.PI * 2 * i) / 14;
+    particles.push({
+      x: cx, y: cy,
+      vx: Math.cos(a) * (1 + Math.random()*1.5),
+      vy: Math.sin(a) * (1 + Math.random()*1.5),
+      life: 1, color
+    });
+  }
+}
+
+function step() {
+  dir = nextDir;
+  const head = { x: snake[0].x + dir.x, y: snake[0].y + dir.y };
+
+  if (head.x < 0 || head.x >= cols || head.y < 0 || head.y >= rows || snake.some(s => s.x === head.x && s.y === head.y)) {
+    gameOver();
+    return;
+  }
+
+  snake.unshift(head);
+  if (head.x === food.x && head.y === food.y) {
+    score += 10;
+    scoreEl.textContent = score;
+    beep(880, 0.08, 'square');
+    spawnParticles(food.x*cell + cell/2, food.y*cell + cell/2, '255,46,136');
+    if (score > best) { best = score; bestEl.textContent = best; saveBest(best); }
+    const newLevel = Math.floor(score / 50) + 1;
+    if (newLevel > level) {
+      level = newLevel;
+      levelEl.textContent = level;
+      stepMs = Math.max(60, 150 - (level-1) * 12);
+      levelupEl.classList.add('show');
+      beep(1200, 0.15, 'sawtooth');
+      setTimeout(() => levelupEl.classList.remove('show'), 700);
+    }
+    placeFood();
+  } else {
+    snake.pop();
+  }
+}
+
+function gameOver() {
+  running = false;
+  beep(120, 0.35, 'sawtooth');
+  msgEl.textContent = 'game over — final score: ' + score;
+  restartBtn.style.display = 'inline-block';
+  cancelAnimationFrame(rafId);
+}
+
+function render(ts) {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  ctx.fillStyle = '#0d1117';
+  for (let x = 0; x < cols; x++) for (let y = 0; y < rows; y++) {
+    if ((x + y) % 2 === 0) ctx.fillRect(x*cell, y*cell, cell, cell);
+  }
+
+  foodPulse += 0.12;
+  const pulse = 3 + Math.sin(foodPulse) * 2;
+  const fx = food.x*cell + cell/2, fy = food.y*cell + cell/2;
+  ctx.fillStyle = '#FF2E88';
+  ctx.shadowColor = '#FF2E88';
+  ctx.shadowBlur = 14;
+  ctx.beginPath();
+  ctx.arc(fx, fy, cell/2 - 2 + pulse*0.3, 0, Math.PI*2);
+  ctx.fill();
+  ctx.shadowBlur = 0;
+
+  snake.forEach((s, i) => {
+    const t = i / Math.max(1, snake.length - 1);
+    const r = Math.round(0 + t * 139);
+    const g = Math.round(229 - t * 100);
+    const b = Math.round(255 - t * 20);
+    ctx.fillStyle = `rgb(${r},${g},${b})`;
+    if (i === 0) { ctx.shadowColor = '#00E5FF'; ctx.shadowBlur = 12; }
+    else ctx.shadowBlur = 0;
+    ctx.fillRect(s.x*cell+1, s.y*cell+1, cell-2, cell-2);
+  });
+  ctx.shadowBlur = 0;
+
+  particles.forEach(p => {
+    p.x += p.vx; p.y += p.vy; p.life -= 0.045;
+    ctx.globalAlpha = Math.max(0, p.life);
+    ctx.fillStyle = `rgb(${p.color})`;
+    ctx.fillRect(p.x-1.5, p.y-1.5, 3, 3);
+  });
+  ctx.globalAlpha = 1;
+  particles = particles.filter(p => p.life > 0);
+
+  if (running && ts - lastStep >= stepMs) {
+    lastStep = ts;
+    step();
+  }
+  if (running) rafId = requestAnimationFrame(render);
+  else if (particles.length) rafId = requestAnimationFrame(render);
+}
+
+function setDir(x, y) {
+  if (dir.x === -x && dir.y === -y) return;
+  nextDir = { x, y };
+  if (!running) start();
+}
+
+function start() {
+  if (running) return;
+  running = true;
+  msgEl.textContent = '';
+  lastStep = 0;
+  cancelAnimationFrame(rafId);
+  rafId = requestAnimationFrame(render);
+}
+
+document.addEventListener('keydown', e => {
+  switch (e.key) {
+    case 'ArrowUp': case 'w': case 'W': e.preventDefault(); setDir(0, -1); break;
+    case 'ArrowDown': case 's': case 'S': e.preventDefault(); setDir(0, 1); break;
+    case 'ArrowLeft': case 'a': case 'A': e.preventDefault(); setDir(-1, 0); break;
+    case 'ArrowRight': case 'd': case 'D': e.preventDefault(); setDir(1, 0); break;
+  }
+});
+
+document.querySelectorAll('.dir').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const map = { up: [0,-1], down: [0,1], left: [-1,0], right: [1,0] };
+    const [x, y] = map[btn.dataset.dir];
+    setDir(x, y);
+  });
+});
+
+restartBtn.addEventListener('click', () => { cancelAnimationFrame(rafId); reset(); });
+
+reset();
+</script>
+</body>
+</html>
