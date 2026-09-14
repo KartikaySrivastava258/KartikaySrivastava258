@@ -102,7 +102,7 @@
 
 <h2>Contribution snake</h2>
 <p align="center">
-<a href="https://kartikaysrivastava258.github.io/KartikaySrivastava258/snake-game/">▶ Play the snake game — arrow keys / WASD</a>
+<a href="https://kartikaysrivastava258.github.io/snake-game/">▶ Play the snake game — arrow keys / WASD</a>
 </p>
 <p align="center">
 <img src="https://raw.githubusercontent.com/KartikaySrivastava258/KartikaySrivastava258/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
